@@ -32,7 +32,7 @@ Vamos nesta secção criar um projeto e aplicação django.
         * `git remote add origin https://github.com/<conta github>/<repositorio github>`
         * `git push -u origin main`
 3. **No seu PC, numa consola de linha de comandos (cmd, PowerShell ou Consola do VS Code)**:
-   * crie um clone do repositório GitHub no seu PC: `git clone https://github.com/<conta github>/<repositorio github>`
+   * crie um clone do repositório GitHub no seu PC: `git clone https://github.com/<conta github>/<repositorio github>`   ([video-tutorial de 2 min](https://educast.fccn.pt/vod/clips/170nrt6pya/streaming.html?locale=pt))
    * Instale o django: `python -m pip install django`
    * Corra o servidor com o projeto django: `python manage.py runserver`. 
    * Clique no hiperlink indicado para ver o projeto Django a correr no seu browser. 
