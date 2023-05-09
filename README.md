@@ -4,37 +4,44 @@
 
 ### Objetivo 
 
-* Neste laboratório criará uma primeira aplicação django, para se familiarizar com os conceitos de urls, views, templates e sua linguagem. 
-
+* Neste laboratório criará uma primeira aplicação django para se familiarizar com os conceitos de urls, views, templates e sua linguagem. 
 * O objetivo é migrar o seu projeto 1 para django. 
 
 ### Recomendações
 * Utilize o VS Code.
-* 
 * quando necessário, guie-se pelo projeto que fizemos na aula teórica, que  está disponível no [repo GitHub](https://github.com/ULHT-PW/pw23-aula-django1). 
-
 * se tiver dúvidas, consulte os slides do [Moodle](https://moodle.ensinolusofona.pt/course/view.php?id=9482) e a documentação oficial do [django](https://www.djangoproject.com/)
-
 * familiarize-se e use o [glossario](https://moodle.ensinolusofona.pt/pluginfile.php/549224/mod_resource/content/4/PW_glossario_2023.pdf) que terão disponivel no exame.
 
 ## 1. Primeiros passos 👶
-Vamos nesta secção criar um projeto e aplicação django.
-1. Abra a linha de comandos (PowerShell ou cmd) e execute os comandos em baixo a cinzento. 
-1. Crie e entre na pasta lab6: `mkdir lab8; cd lab8`
-1. Instale o pipenv executando: `pip install pipenv` ou, se tiver problemas com este comando, com `python -m pip install pipenv`
-   1. se tiver erro de permissões execute:`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
-   1. se não conseguir instalar o pipenv ou der erro, trabalhe sem ambiente virtual (na aula pratica os professores ajudarão a criar o ambiente). Para tal, instale o django sem ambiente virtual (pipenv) com o comando `python -m pip install django`. nessa caso não precisarás de ativar o ambiente, com `pipenv shell`, e podes diretamente correr `django-admin startproject config`  
-3. Active o ambiente virtual: `pipenv shell`
-4. Instale o django: `pipenv install django`
-5. crie um projeto django: `django-admin startproject config .`
-6. Migre as base de dados `python manage.py migrate` (falaremos nisto na próxima aula).
-7. Lance o projeto para ver se está tudo ok, com o comando `python manage.py runserver`. Clique no hiperlink indicado e abra no seu browser. 
-8. Pare o servidor com Ctrl + C
-9. Crie a aplicação portfolio, com a instrução `python manage.py startapp portfolio`
 
- 
+Há duas opções, sendo a primeira a preferencial
+
+### Caso não tenha seguido o lab da semana anterior com pipenv
+
+Vamos nesta secção criar um projeto e aplicação django.
+1. **no GitHub**:
+   1. crie um novo repositório para o seu projeto django
+2. **no PythonAnywhere**:
+   1.  para o seu projeto, crie uma nova conta no PythonAnyWhere (sign Up). (Nota: o PythonAnyWhere, no modo gratuito, só permite ter uma aplicação por conta. Como já tem o projeto 1 numa conta, deve criar uma segunda conta que irá conter o projeto em django).
+   3. crie, no separador Web, um projeto django com Python 3.10. Experimente correr o projeto, devendo ser apresentado o foguetão do Django.
+   4. abra uma consola e, na pasta que contém o manage.py, crie um repositorio git local e sincronize-o com o seu repo no GitHub:
+        * `git init`
+        * `git add .`
+        * `git commit -m "projeto django"`
+        * `git remote add origin https://github.com/<conta github>/<repositorio github>`
+        * `git push -u origin main`
+3. **No seu PC, numa consola de linha de comandos (cmd, PowerShell ou Consola do VS Code)**:
+   * crie um clone do repositório GitHub no seu PC: `git clone https://github.com/<conta github>/<repositorio github>`
+   * Instale o django: `python -m pip install django`
+   * Corra o servidor com o projeto django: `python manage.py runserver`. 
+   * Clique no hiperlink indicado para ver o projeto Django a correr no seu browser. 
+4. Pare o servidor com Ctrl + C
+5. Crie a aplicação portfolio, com a instrução `python manage.py startapp portfolio`
+
+
 ## 2. Configure a aplicação ⚙️
-1. abra a pasta com o Pycharm
+1. abra a pasta com o VS Code
 1. em `config/settings.py` registe a aplicação na lista `INSTALLED_APPS`, colocando no fim `'portfolio'`
 1. em `config/urls.py` registe a rota para a nova aplicação portfolio, inserindo na lista urlpatterns o caminho `path('', include('portfolio.urls))` para a sua aplicação, ficando:
 
