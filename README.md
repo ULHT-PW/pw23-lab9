@@ -1,4 +1,4 @@
-**UNIVERSIDADE LUSÓFONA DE HUMANIDADES E TECNOLOGIAS**
+**UNIVERSIDADE LUSÓFONA**
 
 # Lab 9: a minha primeira web app em Django: Portfolio I ⛅
 
