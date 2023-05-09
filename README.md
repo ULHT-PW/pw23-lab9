@@ -13,9 +13,9 @@
 * 
 * quando necessário, guie-se pelo projeto que fizemos na aula teórica, que  está disponível no [repo GitHub](https://github.com/ULHT-PW/pw23-aula-django1). 
 
-* se tiver dúvidas, consulte os [slides](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-04-django-01.pptx) e a documentação do [djangoproject](https://www.djangoproject.com/)
+* se tiver dúvidas, consulte os slides do [Moodle](https://moodle.ensinolusofona.pt/course/view.php?id=9482) e a documentação oficial do [django](https://www.djangoproject.com/)
 
-* familiarize-se e use o [glossario](https://moodle.ensinolusofona.pt/pluginfile.php/353336/mod_resource/content/1/PW_glossario.pdf) que terão disponivel no exame.
+* familiarize-se e use o [glossario](https://moodle.ensinolusofona.pt/pluginfile.php/549224/mod_resource/content/4/PW_glossario_2023.pdf) que terão disponivel no exame.
 
 ## 1. Primeiros passos 👶
 Vamos nesta secção criar um projeto e aplicação django.
