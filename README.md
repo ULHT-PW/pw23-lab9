@@ -5,12 +5,16 @@
 ### Objetivo 
 
 * Neste laboratório criará uma primeira aplicação django para se familiarizar com os conceitos de urls, views, templates e sua linguagem. 
-* O objetivo é migrar o seu projeto 1 para django. 
+* O objetivo é criar uma base que permita posteriormente desenvolver o seu projeto final, integrando o que desenvolveu no projeto 1. 
 
 ### Recomendações
 * Utilize o VS Code.
-* quando necessário, guie-se pelo projeto que fizemos na aula teórica, que  está disponível no [repo GitHub](https://github.com/ULHT-PW/pw23-aula-django1). 
-* se tiver dúvidas, consulte os slides do [Moodle](https://moodle.ensinolusofona.pt/course/view.php?id=9482) e a documentação oficial do [django](https://www.djangoproject.com/)
+* Guie-se pelo 
+   * [projeto django](https://github.com/ULHT-PW/pw23-aula-django1) realizado na aula teórica;
+   * [slides](https://moodle.ensinolusofona.pt/course/view.php?id=9482);
+   * [gravação da aula](https://educast.fccn.pt/vod/clips/13ii54fteb/html5.html?locale=pt).
+   * [documentação oficial do django](https://www.djangoproject.com/);
+   * repo sobre [git](https://github.com/ULHT-PW/git)
 * familiarize-se e use o [glossario](https://moodle.ensinolusofona.pt/pluginfile.php/549224/mod_resource/content/4/PW_glossario_2023.pdf) que terão disponivel no exame.
 
 ## 1. Primeiros passos 👶
