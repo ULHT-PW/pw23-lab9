@@ -15,10 +15,6 @@
 
 ## 1. Primeiros passos 👶
 
-Há duas opções, sendo a primeira a preferencial
-
-### Caso não tenha seguido o lab da semana anterior com pipenv
-
 Vamos nesta secção criar um projeto e aplicação django.
 1. **no GitHub**:
    1. crie um novo repositório para o seu projeto django
