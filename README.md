@@ -31,6 +31,18 @@ Vamos nesta secção criar um projeto e aplicação django.
         * `git commit -m "projeto django"`
         * `git remote add origin https://github.com/<conta github>/<repositorio github>`
         * `git push -u origin main`
+        * se lhe for pedido para criar uma conta, indique os campos user.name e user.email
+	* se lhe for pedida uma password, deverá gerar um Token:
+	    * no canto superior direito, clicar no seu icon
+	    * selecionar settings
+	    * no menu do lado esquerdo, selecionar "<>Developer settings"
+	    * selecionar PErsonal Access tokens
+	    * selecionar Tokens Classic
+	    * escolher um nome a seu grado
+	    * selecionar a checkbox "repo"
+	    * gravar
+	    * copiar o token e fazer paste sempre que pede password para github
+	    * pode regenerar tokens (estes não ficam disponiveis, deve copiar para um lugar seguro)
 3. **No seu PC, numa consola de linha de comandos (cmd, PowerShell ou Consola do VS Code)**:
    * crie um clone do repositório GitHub no seu PC: `git clone https://github.com/<conta github>/<repositorio github>`   ([video-tutorial de 2 min](https://educast.fccn.pt/vod/clips/170nrt6pya/streaming.html?locale=pt))
    * Instale o django: `python -m pip install django`
