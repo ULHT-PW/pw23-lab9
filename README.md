@@ -32,7 +32,7 @@ Vamos nesta secção criar um projeto e aplicação django.
         * `git remote add origin https://github.com/<conta github>/<repositorio github>`
         * `git push -u origin main`
         * se lhe for pedido para criar uma conta, indique os campos user.name e user.email
-        * se lhe for pedida uma password, deverá gerar um Token:
+   5. se lhe for pedida uma password, deverá gerar um Token:
 	    * no canto superior direito, clicar no seu icon
 	    * selecionar settings
 	    * no menu do lado esquerdo, selecionar "<>Developer settings"
